@@ -17,4 +17,3 @@ jobs:
 
       - name: Echo Done
         run: echo "✅ 자동화 작동 테스트 성공"
-Create backup-log.yml from web
