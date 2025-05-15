@@ -1,0 +1,16 @@
+name: Commit Log Backup
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  log_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Show Last Commit
+        run: git log -1
