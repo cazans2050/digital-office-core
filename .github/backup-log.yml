@@ -14,3 +14,6 @@ jobs:
 
       - name: Show Last Commit
         run: git log -1
+
+      - name: Echo Done
+        run: echo "✅ 자동화 작동 테스트 성공"
